@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="295470" started-at="2022-07-13T18:06:21Z" finished-at="2022-07-13T18:11:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="295470" started-at="2022-07-13T18:06:21Z" finished-at="2022-07-13T18:11:16Z">
+      <class name="com.runner.TestRunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="setUpClass" is-config="true" duration-ms="209" started-at="2022-07-13T18:06:21Z" finished-at="2022-07-13T18:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="32834" started-at="2022-07-13T18:06:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin login page with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="17578" started-at="2022-07-13T18:06:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:07:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin login page with valid credentials using Enter Key"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="14968" started-at="2022-07-13T18:07:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin login page with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin Login Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="16566" started-at="2022-07-13T18:07:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin search hotel page using all fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SearchHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="18690" started-at="2022-07-13T18:07:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin search hotel page using only mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SearchHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="14395" started-at="2022-07-13T18:08:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin search hotel page using invalid CheckIn Date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SearchHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="18505" started-at="2022-07-13T18:08:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin search hotel page without entering any fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SearchHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="19684" started-at="2022-07-13T18:08:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin select hotel page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SelectHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="17303" started-at="2022-07-13T18:08:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:09:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin select hotel page without selecting a hotel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin SelectHotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="35005" started-at="2022-07-13T18:09:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin book hotel page with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin Book Hotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="24760" started-at="2022-07-13T18:09:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin book hotel page without entering any credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin Book Hotel Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="42827" started-at="2022-07-13T18:10:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin cancel booking page by cancelling generated order id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin CancelBooking Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="runScenario" duration-ms="20395" started-at="2022-07-13T18:10:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-13T18:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating adactin cancel booking page by cancelling existing order id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Adactin CancelBooking Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="afterClass" is-config="true" duration-ms="1264" started-at="2022-07-13T18:11:15Z" finished-at="2022-07-13T18:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.TestRunnerClass@5f058f00]" name="tearDownClass" is-config="true" duration-ms="292" started-at="2022-07-13T18:11:16Z" finished-at="2022-07-13T18:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.TestRunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
