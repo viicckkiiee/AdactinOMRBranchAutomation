@@ -1,14 +1,11 @@
 package com.pages;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-
+import com.base.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.base.BaseClass;
+import java.awt.*;
 
 /**
  * 
@@ -65,7 +62,7 @@ public class LoginPage extends BaseClass {
 	}
 	
 	public void login() {
-		
+		//Sample
 		click(getBtnLogin());
 	}
 	
